@@ -22,4 +22,4 @@ function generateRandomQuote() {
 }
 
 generateBtn.addEventListener("click", generateRandomQuote)
-// generateRandomQuote()
+generateRandomQuote()
