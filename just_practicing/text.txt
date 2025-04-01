@@ -1,0 +1,5 @@
+try {
+const data = JSON.parse(localStorage.getItem("data"));
+} catch (error) {
+console.error("Помилка парсингу JSON", error);
+}
